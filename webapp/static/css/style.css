@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000000;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    height: 90vh;
+    width: 90vw;
+    background-color: #000000;
+    border: 2px solid #ddd;
+}
+
+/* Left side panel */
+.left-panel {
+    grid-row: 1 / 3;
+    grid-column: 1 / 2;
+    background-color: #e6e6e6;
+    padding: 20px;
+    border-right: 1px solid #ccc;
+}
+
+.left-panel h2 {
+    color: #cc0000;
+    margin-bottom: 15px;
+}
+
+#text-column {
+    width: 100%;
+    height: 85%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* Right side panels */
+.right-panel {
+    display: grid;
+    grid-template-rows: 50% 50%; /* Each section takes up 50% of the height */
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+}
+
+
+.image-display {
+    grid-row: 1 / 2;
+    background-color: #f9f9f9;
+    padding: 10px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+}
+
+
+.image-display img {
+    width: 100%; /* Fill the width of the container */
+    height: 100%; /* Fill the height of the container */
+    object-fit: cover; /* Ensure the image covers the container, zooming in or out as needed */
+}
+
+
+.image-display p {
+    color: #cc0000;
+    margin-top: 15px;
+}
+
+/* Buttons to switch between images */
+.button-container {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.button-container button {
+    margin-left: 5px;
+    padding: 10px;
+    font-size: 14px;
+    background-color: #cc0000;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.button-container button:hover {
+    background-color: #b30000;
+}
+
+/* Chat Interface */
+.chat-interface {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.chat-interface h2 {
+    color: #cc0000;
+    margin-bottom: 15px;
+}
+
+#chat-box {
+    flex-grow: 1;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    overflow-y: auto;
+}
+
+#chat-input {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#send-btn {
+    width: 18%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #cc0000;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#send-btn:hover {
+    background-color: #b30000;
+}

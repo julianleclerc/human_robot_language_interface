@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masters Thesis</title>
+    <!-- Link to the CSS file using a relative path -->
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Left side - Editable Text Column -->
+        <div class="left-panel">
+            <h2>Planned Actions</h2>
+            <textarea id="text-column" placeholder="Edit your text here..."></textarea>
+        </div>
+
+        <!-- Right side - Image and Chat Interface -->
+        <div class="right-panel">
+            <!-- Top section: Image -->
+            <div class="image-display">
+                <div class="button-container">
+                    <!-- Use relative paths to images in static folder -->
+                    <button data-image="../static/images/image1.png"> Camera </button>
+                    <button data-image="../static/images/image2.png"> Nav2 </button>
+                    <button data-image="../static/images/image3.png"> RTAB </button>
+                </div>
+                <!-- Display the first image by default using relative path -->
+                <img id="robot-image" src="../static/images/image1.png" alt="Robot Display" />
+            </div>
+
+            <!-- Bottom section: Chat Interface -->
+            <div class="chat-interface">
+                <h2>Chat</h2>
+                <div id="chat-box"></div>
+                <input type="text" id="chat-input" placeholder="Type your message...">
+                <button id="send-btn">Send</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Link to the JavaScript file using a relative path -->
+    <script src="../static/js/script.js"></script>
+</body>
+</html>

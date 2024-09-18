@@ -1,0 +1,36 @@
+[0.009s] Invoking command in '/home/fyier/ros2_ws/build/examples_rclcpp_minimal_action_server': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/fyier/ros2_ws/src/examples/rclcpp/actions/minimal_action_server -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/fyier/ros2_ws/install/examples_rclcpp_minimal_action_server
+[0.165s] -- The C compiler identification is GNU 11.4.0
+[0.260s] -- The CXX compiler identification is GNU 11.4.0
+[0.270s] -- Detecting C compiler ABI info
+[0.320s] -- Detecting C compiler ABI info - done
+[0.325s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.325s] -- Detecting C compile features
+[0.325s] -- Detecting C compile features - done
+[0.327s] -- Detecting CXX compiler ABI info
+[0.368s] -- Detecting CXX compiler ABI info - done
+[0.375s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.375s] -- Detecting CXX compile features
+[0.375s] -- Detecting CXX compile features - done
+[0.380s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.462s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.494s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.516s] [31mCMake Error at CMakeLists.txt:14 (find_package):
+[0.516s]   By not providing "Findexample_interfaces.cmake" in CMAKE_MODULE_PATH this
+[0.516s]   project has asked CMake to find a package configuration file provided by
+[0.516s]   "example_interfaces", but CMake did not find one.
+[0.516s] 
+[0.516s]   Could not find a package configuration file provided by
+[0.516s]   "example_interfaces" with any of the following names:
+[0.516s] 
+[0.516s]     example_interfacesConfig.cmake
+[0.516s]     example_interfaces-config.cmake
+[0.516s] 
+[0.516s]   Add the installation prefix of "example_interfaces" to CMAKE_PREFIX_PATH or
+[0.516s]   set "example_interfaces_DIR" to a directory containing one of the above
+[0.516s]   files.  If "example_interfaces" provides a separate development package or
+[0.516s]   SDK, be sure it has been installed.
+[0.516s] 
+[0.516s] [0m
+[0.517s] -- Configuring incomplete, errors occurred!
+[0.517s] See also "/home/fyier/ros2_ws/build/examples_rclcpp_minimal_action_server/CMakeFiles/CMakeOutput.log".
+[0.520s] Invoked command in '/home/fyier/ros2_ws/build/examples_rclcpp_minimal_action_server' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/fyier/ros2_ws/src/examples/rclcpp/actions/minimal_action_server -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/fyier/ros2_ws/install/examples_rclcpp_minimal_action_server

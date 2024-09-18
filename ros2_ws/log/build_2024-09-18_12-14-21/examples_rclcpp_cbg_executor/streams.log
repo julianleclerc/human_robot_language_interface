@@ -1,0 +1,46 @@
+[0.010s] Invoking command in '/home/fyier/ros2_ws/build/examples_rclcpp_cbg_executor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/fyier/ros2_ws/build/examples_rclcpp_cbg_executor -- -j4 -l4
+[0.053s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.147s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.158s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.190s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.193s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.198s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.206s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.218s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.245s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.247s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.302s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.338s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.374s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.375s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.375s] -- Configured cppcheck include dirs: /home/fyier/ros2_ws/src/examples/rclcpp/executors/cbg_executor/include
+[0.375s] -- Configured cppcheck exclude dirs and/or files: 
+[0.376s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.376s] -- Configured cpplint exclude dirs and/or files: 
+[0.376s] -- Added test 'lint_cmake' to check CMake code style
+[0.377s] -- Added test 'uncrustify' to check C / C++ code style
+[0.377s] -- Configured uncrustify additional arguments: 
+[0.377s] -- Added test 'xmllint' to check XML markup files
+[0.379s] -- Configuring done
+[0.390s] -- Generating done
+[0.391s] -- Build files have been written to: /home/fyier/ros2_ws/build/examples_rclcpp_cbg_executor
+[0.401s] [35m[1mConsolidate compiler generated dependencies of target ping[0m
+[0.401s] [35m[1mConsolidate compiler generated dependencies of target pong[0m
+[0.402s] [35m[1mConsolidate compiler generated dependencies of target ping_pong[0m
+[0.422s] [ 10%] [32mBuilding CXX object CMakeFiles/pong.dir/src/examples_rclcpp_cbg_executor/pong_node.cpp.o[0m
+[0.422s] [ 20%] [32mBuilding CXX object CMakeFiles/pong.dir/src/pong.cpp.o[0m
+[0.422s] [ 40%] [32mBuilding CXX object CMakeFiles/ping_pong.dir/src/ping_pong.cpp.o[0m
+[0.422s] [ 40%] [32mBuilding CXX object CMakeFiles/ping.dir/src/ping.cpp.o[0m
+[4.483s] [ 50%] [32mBuilding CXX object CMakeFiles/ping.dir/src/examples_rclcpp_cbg_executor/ping_node.cpp.o[0m
+[4.501s] [ 60%] [32mBuilding CXX object CMakeFiles/ping_pong.dir/src/examples_rclcpp_cbg_executor/ping_node.cpp.o[0m
+[4.514s] [ 70%] [32mBuilding CXX object CMakeFiles/ping_pong.dir/src/examples_rclcpp_cbg_executor/pong_node.cpp.o[0m
+[9.367s] gmake[2]: *** [CMakeFiles/ping.dir/build.make:90: CMakeFiles/ping.dir/src/examples_rclcpp_cbg_executor/ping_node.cpp.o] Interrupt
+[9.368s] gmake[2]: *** wait: No child processes.  Stop.
+[9.368s] gmake[2]: *** [CMakeFiles/ping_pong.dir/build.make:90: CMakeFiles/ping_pong.dir/src/examples_rclcpp_cbg_executor/ping_node.cpp.o] Interrupt
+[9.368s] gmake[2]: *** [CMakeFiles/ping_pong.dir/build.make:104: CMakeFiles/ping_pong.dir/src/examples_rclcpp_cbg_executor/pong_node.cpp.o] Interrupt
+[9.368s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/ping.dir/all] Interrupt
+[9.369s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/ping_pong.dir/all] Interrupt
+[9.369s] gmake[2]: *** Waiting for unfinished jobs....
+[9.369s] gmake[2]: *** wait: No child processes.  Stop.
+[9.369s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/pong.dir/all] Error 2
+[9.369s] gmake: *** [Makefile:146: all] Interrupt
